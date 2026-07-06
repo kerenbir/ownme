@@ -64,31 +64,27 @@ https://d3b0v7fggu5zwm.cloudfront.net/out/v1/f3df48faafaf4198a65b9763140fce30/in
 #EXTINF:-1 tvg-id="RTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/cStgoV5oqj2Om_6NMOzK0AFY-sg=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/1561/665aea.png" group-title="Indonesia Channels",RTV
 https://rtvstream.rtv.co.id:4555/hls/rtv.m3u8
 
-#EXTVLCOPT:http-referrer=https://cdnbal1.indihometv.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.assured_buffer_length=30
-#KODIPROP:inputstream.adaptive.max_buffer_length=60
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:mimetype=application/dash+xml
 #EXTINF:-1 tvg-id="401" group-title="HBO Group" group-logo="" tvg-logo="https://iili.io/Ju79f8g.png",HBO
 https://cdnbal1.indihometv.com/atm/DASH/hbo/manifest.mpd
 
-#EXTVLCOPT:http-referrer=https://cdnbal1.indihometv.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.assured_buffer_length=30
-#KODIPROP:inputstream.adaptive.max_buffer_length=60
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:mimetype=application/dash+xml
 #EXTINF:-1 tvg-id="402" group-title="HBO Group" group-logo="" tvg-logo="https://iili.io/Ju79nwv.png",HBO Hits
 https://cdnbal1.indihometv.com/atm/DASH/hbohits/manifest.mpd
 
-#EXTVLCOPT:http-referrer=https://cdnbal1.indihometv.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.assured_buffer_length=30
-#KODIPROP:inputstream.adaptive.max_buffer_length=60
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:mimetype=application/dash+xml
 #EXTINF:-1 tvg-id="403" group-title="HBO Group" group-logo="" tvg-logo="https://iili.io/Ju79otR.png",HBO Family
 https://cdnbal1.indihometv.com/atm/DASH/hbofamily/manifest.mpd
 
-#EXTVLCOPT:http-referrer=https://cdnbal1.indihometv.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.assured_buffer_length=30
-#KODIPROP:inputstream.adaptive.max_buffer_length=60
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:mimetype=application/dash+xml
 #EXTINF:-1 tvg-id="405" group-title="HBO Group" group-logo="" tvg-logo="https://iili.io/Ju79znp.png",Cinemax
 https://cdnbal1.indihometv.com/atm/DASH/cinemax/manifest.mpd
 
